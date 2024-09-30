@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.lug.ustc.edu.cn/css?family=Times New Roman:300,300italic,400,400italic,700,700italic|Times New Roman,Song Myung:300,300italic,400,400italic,700,700italic|Song Myung:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Roboto&display=swap" rel="stylesheet">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="逻辑推理所能做到的，仅仅是表明，相关的形而上学信条是否与已经被证明为科学真理的东西相矛盾。 那些真正想要掌握经济理论要旨的人，应该首先谙熟经济学的内容，然后，在反复思索了这些经济理论以后，才能转而研究相关的认识论方面的问题。如果没有细致地钻研过人类行动学所思考的一些重大问题，比如报酬律(大多数时候叫作报酬递减律)、李嘉图协作法则(一般称作比较成本定律)、经济计算问题等等，那么，不能指望任何人理解人">
+<meta property="og:type" content="article">
+<meta property="og:title" content="经济学的最终基础-一篇关于方法的论文-摘录">
+<meta property="og:url" content="http://example.com/2024/09/28/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E6%9C%80%E7%BB%88%E5%9F%BA%E7%A1%80-%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%E6%96%B9%E6%B3%95%E7%9A%84%E8%AE%BA%E6%96%87-%E6%91%98%E5%BD%95/index.html">
+<meta property="og:site_name" content="Allen&#39;s Space">
+<meta property="og:description" content="逻辑推理所能做到的，仅仅是表明，相关的形而上学信条是否与已经被证明为科学真理的东西相矛盾。 那些真正想要掌握经济理论要旨的人，应该首先谙熟经济学的内容，然后，在反复思索了这些经济理论以后，才能转而研究相关的认识论方面的问题。如果没有细致地钻研过人类行动学所思考的一些重大问题，比如报酬律(大多数时候叫作报酬递减律)、李嘉图协作法则(一般称作比较成本定律)、经济计算问题等等，那么，不能指望任何人理解人">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-09-27T19:09:10.000Z">
+<meta property="article:modified_time" content="2024-09-27T19:25:48.659Z">
+<meta property="article:author" content="Allen Chen">
+<meta property="article:tag" content="经济学">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2024/09/28/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E6%9C%80%E7%BB%88%E5%9F%BA%E7%A1%80-%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%E6%96%B9%E6%B3%95%E7%9A%84%E8%AE%BA%E6%96%87-%E6%91%98%E5%BD%95/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>经济学的最终基础-一篇关于方法的论文-摘录 | Allen's Space</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Allen's Space</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">2</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">1</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">2</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/09/28/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E6%9C%80%E7%BB%88%E5%9F%BA%E7%A1%80-%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%E6%96%B9%E6%B3%95%E7%9A%84%E8%AE%BA%E6%96%87-%E6%91%98%E5%BD%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Allen Chen">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Allen's Space">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          经济学的最终基础-一篇关于方法的论文-摘录
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2024-09-28 03:09:10 / Modified: 03:25:48" itemprop="dateCreated datePublished" datetime="2024-09-28T03:09:10+08:00">2024-09-28</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>逻辑推理所能做到的，仅仅是表明，相关的形而上学信条是否与已经被证明为科学真理的东西相矛盾。</p>
+<p>那些真正想要掌握经济理论要旨的人，应该首先谙熟经济学的内容，然后，在反复思索了这些经济理论以后，才能转而研究相关的认识论方面的问题。如果没有细致地钻研过人类行动学所思考的一些重大问题，比如报酬律(大多数时候叫作报酬递减律)、李嘉图协作法则(一般称作比较成本定律)、经济计算问题等等，那么，不能指望任何人理解人类行动学的含义及其特定的认识论问题涉及的内容。</p>
+<h2 id="关于人类行动学的几点初步看法：代导言"><a href="#关于人类行动学的几点初步看法：代导言" class="headerlink" title="关于人类行动学的几点初步看法：代导言"></a>关于人类行动学的几点初步看法：代导言</h2><h3 id="1-认识论的永恒基础"><a href="#1-认识论的永恒基础" class="headerlink" title="1 认识论的永恒基础"></a>1 认识论的永恒基础</h3><p>就认识论而言，就人类知识理论而言，肯定有某种东西不得不认为是永恒的，这就是人类心灵的逻辑结构与行为学结构，以及人类的感官能力。</p>
+<p>就认识论而言，必须把某种东西看作是不变的，这种不变的东西就是人类心灵的逻辑结构和行为学结构。</p>
+<h3 id="2-论行动"><a href="#2-论行动" class="headerlink" title="2 论行动"></a>2 论行动</h3><p>认识论探究的是人类生活的精神现象，是思维和行动着的人。传统认识论的主要缺陷在于忽视了人的行动方面。传统认识论者把思维当作一个独立的领域，与人的活动的其他表现相隔绝。他们探究逻辑学和数学问题，但却没有看到思维的实际内容。他们忽视了人的行动的先验性。</p>
+<h3 id="3-论经济学"><a href="#3-论经济学" class="headerlink" title="3 论经济学"></a>3 论经济学</h3><p>谁要想在人类行动学上有所成就，谁就必须熟悉数学、物理学、生物学、历史学和法学，以免他把人类行动理论的任务和方法与上述任何其他知识领域的任务和方法混淆在一起。</p>
+<h3 id="4-人类行动学思想的起点"><a href="#4-人类行动学思想的起点" class="headerlink" title="4 人类行动学思想的起点"></a>4 人类行动学思想的起点</h3><p>人类行动学一切思想的出发点，不是任意选择的公理，而是每个人心中完完全全、明明白白和不可避免地显现出来的道理。</p>
+<p>除动物学外，有史以来凡是对人与非人的哺乳动物作出区分的科学论述，都含有这样的意思：人是行动着的。行动的含义是： 力求达到目的；也就是说，先选择一个目标，然后借助于手段来达到所追求的目标。</p>
+<p>人类行动学的起点是一个自明的真理，即对行动的认识，也就是认识到有这样一种事物，它有意识地瞄准目的。</p>
+<h3 id="5-外部世界的真实性"><a href="#5-外部世界的真实性" class="headerlink" title="5 外部世界的真实性"></a>5 外部世界的真实性</h3><p>从人类行动学的观点来看，我们不能怀疑物质、有形物体以及外部世界的真实存在。它们的真实性，由人不是全能的这个事实显示了出来。在这个世界上，有一些东西阻碍着人实现其愿望和欲望。</p>
+<h3 id="6-因果关系与目的论"><a href="#6-因果关系与目的论" class="headerlink" title="6 因果关系与目的论"></a>6 因果关系与目的论</h3><p>但是，以上这一切却不会使人联想到，有人在力求达到所追求的目的；这里根本没有可以辨认出来的目的。</p>
+<p>自然科学研究的是因果关系；人类行动科学则具有目的论的性质。</p>
+<p>人类行动科学涉及的目的，不是上帝的计划和实行计划的手段，而是行动着的人在努力实现自己的计划时所追求的目的。通常被称为历史哲学的形而上学，试图在川流不息的历史事件中发现上帝的隐秘计划或某种神秘力量（譬如，马克思理论中的物质生产力)的隐秘计划，这不是科学。</p>
+<h3 id="7-行动范畴"><a href="#7-行动范畴" class="headerlink" title="7 行动范畴"></a>7 行动范畴</h3><p>人类行动理论科学的所有要素都已蕴含在行动范畴之中，因而必须通过细述行动范畴的内容来说明这些要素。由于在目的论的这些要素当中也有因果范畴，行动范畴便是认识论的基本范畴， 亦即认识论的起点。</p>
+<p>行动这个范畴或概念包含着下述概念：手段与目的、取与舍(即评价)、成功与失败、利润与亏损、成本。因为若不清楚因果关系，就不会有人筹划自己的行动并大胆地有所行动，所以目的论便以因果关系为先决条件。</p>
+<h3 id="8-人类行动科学"><a href="#8-人类行动科学" class="headerlink" title="8 人类行动科学"></a>8 人类行动科学</h3><h2 id="第一章-人类心灵"><a href="#第一章-人类心灵" class="headerlink" title="第一章 人类心灵"></a>第一章 人类心灵</h2><h3 id="1-人类心灵的逻辑结构"><a href="#1-人类心灵的逻辑结构" class="headerlink" title="1 人类心灵的逻辑结构"></a>1 人类心灵的逻辑结构</h3><p>先验范畴是人类的先天禀赋，这种禀赋使人类得以获得了其特有的一切东西，并使人类区别于所有其他存在物。范畴分析是对人类境况和人在宇宙中的作用的分析。先验范畴是一种力量，这种力量使人类得以创造出和生产出了一切叫作人类文明的东西。</p>
+<h3 id="2-关于先验范畴起源的假说"><a href="#2-关于先验范畴起源的假说" class="headerlink" title="2 关于先验范畴起源的假说"></a>2 关于先验范畴起源的假说</h3><p>能够生存下来的，只是那些按照正确的范畴行动的种群。所谓正确的范畴，就是与现实相一致的，因而一用实用主义的概念来说一行得通的范畴。</p>
+<p>无论我们如何思考这个问题，有一点是确定无疑的。那就是， 既然源自人类心灵逻辑结构的先验范畴使人能够建立一些理论，而实际运用这些理论有助于他在生存斗争中不被打败，有助于达到他想要达到的各种目的，所以这些范畴也就提供了一些有关宇宙现实的信息。</p>
+<p>理论之不同于历史，在于理论探寻事物之间不变的关系，亦即探寻连续不断的事件的规律性。在把认识论确立为知识理论时， 哲学家隐含地假设或明确地说，在人的智力活动中，有某种保持不变的东西，亦即人类心灵的逻辑结构。</p>
+<h3 id="3-先验知识"><a href="#3-先验知识" class="headerlink" title="3 先验知识"></a>3 先验知识</h3><p>先验知识的特征则是，我们无法想象与先验知识相反的真理，无法想象与先验知识相矛盾的事情。先验知识所表达的东西，必然蕴含在有关所讨论的问题的每一个命题之中，必然蕴含在我们的一切思维和行动之中。</p>
+<h3 id="4-现实的先验表现"><a href="#4-现实的先验表现" class="headerlink" title="4 现实的先验表现"></a>4 现实的先验表现</h3><p>如果宇宙是混乱的，也就是说，如果各个事件的前后连续和相互联系毫无规律性可言，那么，人就不可能有思维和行动。</p>
+<p>关于因果关系，我们所能说的仅仅是，它不仅对于人类思维来说是先验的，而且对于人类行动来说也是先验的。</p>
+<p>只有一点人们不会有丝毫异议，那就是，一切先验范畴都可以归纳为人的先验洞察力，亦即人洞察到了外部世界所有可以观察到的现象的连续发生具有规律性。</p>
+<h3 id="5-归纳法"><a href="#5-归纳法" class="headerlink" title="5 归纳法"></a>5 归纳法</h3><p>推理必然总是演绎的。无论是谁，若试图表明或证明扩充性归纳的逻辑正当性，即用演绎法来解释归纳法，以此来为扩充性归纳作辩护，他都会隐含地承认这一点。经验主义的困境恰恰在于， 它未能令人满意地解释，人们为何能根据观察到的事实推论出有关尚未观察到的事实的某些情况。</p>
+<h3 id="6-概率经验主义的自相矛盾"><a href="#6-概率经验主义的自相矛盾" class="headerlink" title="6 概率经验主义的自相矛盾"></a>6 概率经验主义的自相矛盾</h3><p>经验主义宣称，经验是人类知识的唯一来源，并将那种认为一切经验都以先验范畴为先决条件的看法，斥之为形而上学的偏见。</p>
+<p>经验主义从其所采用的经验主义方法人手，假定人从未经验过的事件是有可能存在的。于是，我们被告知，物理学不能排除这样的可能性：“你把一块冰放入一杯水里，水便沸腾起来，冰块则变得硬邦邦的，就像放在冷藏柜中那样。”</p>
+<h3 id="7-唯物主义"><a href="#7-唯物主义" class="headerlink" title="7 唯物主义"></a>7 唯物主义</h3><p>我们必须把宿命论与唯物主义明确区别开来。唯物主义宣称，引起变化的因素，只是那些可以用自然科学的方法进行研究的因素。它并不一定否认，人的观念、价值判断和意志也是真实的， 也会引起一定的变化。但是，就它不否认这一点而言，它是说，这些观念性因素是外部事件的必然结果，外部事件会在人的身体结构内引发一定的反应。</p>
+<blockquote>
+<p>一种学说若只是确立了一个纲领，而没有说明如何实施该纲领，那么，与这种学说的支持者展开争论是毫无用处的。</p>
+</blockquote>
+<p>实用主义对有用的和没有用的作了区分。唯物主义者若求助于这种区分，那是徒劳无益的，因为这种区分把一个与自然科学格格不入的因素引人了推理链条，即目的。如果受一种学说或主张指引的行为实现了想要达到的目的，那么该学说或主张就是有用的。但是，目的的选择是由观念决定的，这种选择本身是精神事实。判断是否达到了所选择的目的，也是精神事实。</p>
+<h3 id="8-唯物主义哲学的荒谬可笑"><a href="#8-唯物主义哲学的荒谬可笑" class="headerlink" title="8 唯物主义哲学的荒谬可笑"></a>8 唯物主义哲学的荒谬可笑</h3><p>但从他们列举的所有例子来看，我们不得不说，他们心中想的是人们在生产活动中使用的工具、机器和其他人造物。可是，这些工具本身并不是最终的物质，而是有目的的精神过程的产物。</p>
+<p>每一种唯物主义的或准唯物主义的形而上学，都必然要把一个没有生命的因素转变成一个类似于人的东西，并认为它有能力思考，作出价值判断，选择目的和运用手段达到选定的目的。</p>
+<p>认识论从这种状况中应当了解到的事情是：假如有哪种学说教导我们说，某种“真实的”或“外部的”力量把自己的故事书写在了人类心灵上，因而试图把人类心灵变为一种工具，这种工具能像消化器官消化食物那样，将“现实”转变为观念，那么，这种学说也就不知道如何区分什么是真实的和什么是不真实的。它若想避免陷入那种无法辨别观念真伪的极端怀疑主义，所能采用的唯一方法，就是把人分为“好”人和“坏”人。“好”人具有这样一种判断能力，此种能力作出的判断不会有悖于那种支配着宇宙全部事务的神秘的超人力量。“坏”人则不具有这种能力。此种学说必然认为，想要通过说理和劝说来改变“坏”人的想法，那是毫无希望的。要想结束各种对立思想的冲突，唯一的办法就是消灭“坏”人，也就是那些持有与“好”人不同看法的人。因此，唯物主义最终对付不同意见的方法，与各国暴君一向采用的方法没有什么两样。</p>
+<p>认识论在证明这一事实的过程中，为了解我们时代的历史提供了一个线索。</p>
+<h2 id="第二章-知识的行动主义基础"><a href="#第二章-知识的行动主义基础" class="headerlink" title="第二章 知识的行动主义基础"></a>第二章 知识的行动主义基础</h2><h3 id="1-人与行动"><a href="#1-人与行动" class="headerlink" title="1 人与行动"></a>1 人与行动</h3><p>人的特征是行动。人总是致力于改变其环境的某些方面，以便用更加适合于自己的状况取代不那么适合自己的状况。人不同于他所知道的所有其他生物和事物，这种不同在其生命和行为中的全部表现，就是人能行动，因而人可以从我们所谓的行动主义的观点来探究。对人的研究，就其有别于生物学而言，应以研究人的行动始，以研究人的行动终。</p>
+<p>行动是有目的的行为。行动不仅仅是行为，而且是由价值判断引发的行为，致力于达到一定的目的，并由观念所指引，以判断一定的手段是合适还是不合适。</p>
+<p>从行动主义的观点看，知识是行动的工具，其功用是告诉人们如何消除不安。</p>
+<p>从这一角度看，对知识的纯粹追求，尽管并非是受到想要改善外部生活条件的愿望的激励，但也是行动，亦即是一种为了获得更加合意的状况所付出的努力。</p>
+<p>行动范畴是人类知识的根本性范畴。它涉及所有逻辑范畴以及规律性和因果关系范畴。它还涉及时间范畴和价值范畴。它包含人类生活特有的全部表现，这些表现不同于人跟所有其他动物共同具有的生理结构的表现。在行动时，每个人的心灵都认为自己不同于周围的环境即外部世界，试图研究外部环境，以影响外部环境中事情的发生进程。</p>
+<h3 id="2-目的因"><a href="#2-目的因" class="headerlink" title="2 目的因"></a>2 目的因</h3><p>把自然科学用于研究老鼠或铁的方法，也用于描述人的行为，这可是一种不花钱的消遣。相同的外部事件，会在不同的人那里和在不同时间的相同的人那里，引发不同的反应。</p>
+<h3 id="3-价值判断"><a href="#3-价值判断" class="headerlink" title="3 价值判断"></a>3 价值判断</h3><p>价值判断是人对其环境的各种状况作出的情感反应，在这里， 既有外部世界的状况，也有其自己身体的生理状况。</p>
+<p>自然科学的方法和认识论原则之所以不能运用于人类行动问题，是因为这些科学没有处理价值判断的工具。在自然科学研究的那些现象的领域，大凡有目的的行为，均无立足之地。</p>
+<h3 id="4-统一科学的妄想"><a href="#4-统一科学的妄想" class="headerlink" title="4 统一科学的妄想"></a>4 统一科学的妄想</h3><p>自然科学的方法之所以不能运用于人的行为，是因为这种行为且不说使其成为人类行动的那些因素，因而应该由人类行动学来加以研究缺少自然科学领域中那些事件所具有的特点，即规律性。</p>
+<h3 id="5-人类行动科学的两个分支"><a href="#5-人类行动科学的两个分支" class="headerlink" title="5 人类行动科学的两个分支"></a>5 人类行动科学的两个分支</h3><p>人类行动科学有两个分支，一个是人类行动学，一个是史学。</p>
+<p>人类行动学是先验的。它的起点是行动这一先验范畴，从这个范畴发展出了它所包含的全部内容。其实，人类行动学通常并不过多地关注那些对于研究人的实际行动毫无用处的问题，而只探究那些对于阐明现实状况必不可少的问题。其志趣是，研究行动着的人在其不得不面对的情况下所采取的行动。这并没有改变人类行动学的纯粹先验性，而只是限定了各个人类行动学家所选择的研究范围。他们谈及经验，只是为了把两类问题区分开来：一类问题与研究实际的人和行动有关，另一类问题则只具有学术上的意义。人类行动学的某一定理是否适用于某一行动问题，取决于该定理所包含的特殊假设对于认识现实是否有价值。</p>
+<p>一些哲学家跟随康德的分析，提出了这样的问题：人类心灵何以能凭借先验思维探究外部世界的现实？就人类行动学而言，回答这个问题很容易。不论是先验思维和推理，还是人类行动，都是人类心灵的表现。人类心灵的逻辑结构创造了实际行动。理性和行动既是同源的，也是同质的，是同一现象的两个方面。</p>
+<p>人类行动科学的另一分支是史学。史学涵盖了涉及人类行动的全部经验，是对人类行动的井井有条的记录，亦即对过去发生的各种人类行动现象的描述。历史描述区别于自然科学描述的地方是，不能用规律性范畴解释前者。</p>
+<p>探究具体目的的是史学。史学探究的主要问题是，行动者对于自己所处的境况赋予了何种意义？他们作出的反应具有何种意义？以及最后，这些反应带来了何种结果？史学的自律，或者说各门历史学科的自律在于，献身于探究意义。</p>
+<h3 id="6-人类行动学的逻辑特征"><a href="#6-人类行动学的逻辑特征" class="headerlink" title="6 人类行动学的逻辑特征"></a>6 人类行动学的逻辑特征</h3><p>人类行动学是先验的。其全部定理都是演绎推理的产物，该演绎推理的起点便是行动范畴。人类行动学的判断是应该称为分析的，还是应该称为综合的，它使用的方法是否应该叫作“纯粹的”同义反复方法一诸如此类的问题只不过是词语上的争论而已。</p>
+<blockquote>
+<p><strong>在讨论每一个行动时，我们都会遇到目的与手段、成功与失败、赢利与亏损以及成本等基本概念。</strong></p>
+</blockquote>
+<h3 id="7-史学的逻辑特征"><a href="#7-史学的逻辑特征" class="headerlink" title="7 史学的逻辑特征"></a>7 史学的逻辑特征</h3><p>最广义的历史，是人类经验的总和。历史就是经验，而一切经验都是在历史上发生的。历史也包括自然科学的一切经验。</p>
+<p>史学是人类行动的记录。史学所证实的是，人们在一定观念的激发之下，作出了一定的价值判断，选择了一定的目的，并且为了达到选定的目的采用了一定的手段。</p>
+<h3 id="8-情意学方法"><a href="#8-情意学方法" class="headerlink" title="8 情意学方法"></a>8 情意学方法</h3><p>一方面是自然环境，另一方面是人类行动，塑造着人行动的环境。他所筹划的未来，是由像他那样做着筹划并行动着的人们的行动共同决定的。他若想要成功，就必须预测其他人的行为。</p>
+<p>情意学是史学的一个分支，或者正如柯林武德表述的，它隶属于“史学领域”。它探究的是决定人们行动的精神活动，是导致某种行为的精神过程，是个人对其环境的精神反应。它探究的是某种看不见摸不着的东西，这种东西用自然科学的方法是察觉不到的。</p>
+<p>人类行动科学特有的这种理解，旨在确认这样一个事实，即： 人们往往赋予自己的环境状况以特定的意义，会对这种状况作出评价，并会采取一定的手段以维持或达到某种状况，而如果他们不作出有目的的反应，是不会维持或达到这种状况的。理解牵涉到价值判断，牵涉到目的和达到目的的手段的选择，并牵涉到对行动结果的评价。</p>
+<p>生产活动涉及的主要问题之一，就是预测消费者的未来需求。</p>
+<h2 id="第三章-必然性与意志力"><a href="#第三章-必然性与意志力" class="headerlink" title="第三章 必然性与意志力"></a>第三章 必然性与意志力</h2><h3 id="1-无限"><a href="#1-无限" class="headerlink" title="1 无限"></a>1 无限</h3><h3 id="2-最终的给定物"><a href="#2-最终的给定物" class="headerlink" title="2 最终的给定物"></a>2 最终的给定物</h3><p>自然科学完全是基于经验。它们所知道的和所处理的，都来自于经验。如果事件的连续没有规律性，经验也就不能告诉我们任何事情。</p>
+<p>这意味着：在人类文明和知识的当前状况之下，一个人对于诸如灵魂、心灵、信念、思维、推理和意志这类问题发表的看法，都不具有自然科学的认识论特征，因而绝不能视为科学知识。</p>
+<h3 id="3-统计"><a href="#3-统计" class="headerlink" title="3 统计"></a>3 统计</h3><p>统计是用数字来描述没有规律的现象。所以，统计是一种特殊的历史方法。</p>
+<h3 id="4-自由意志"><a href="#4-自由意志" class="headerlink" title="4 自由意志"></a>4 自由意志</h3><p>其一生（即人生旅程）的任何时刻，都是整个宇宙历史的产物。他的一切行动都是他的个性的必然结果，而他的个性则是由先前的切事物塑造出来的。</p>
+<p>“意志自由”这个词指的是这样一个事实，即：诱导一个人作出某一决定（或选择）的那些观念，像所有其他观念一样，不是由外在的“事实”“产生”的，也不“反映”实在的情况，更不是由任何可以确定的外在因素“唯一地决定的”，也就是说，我们不能像在所有其他情况下可以把某一结果归于某一原因那样，也把观念归因于外在因素。关于某个人采取的某一行动和作出的某一选择，我们除了说这是他的个性使然之外，别的什么也说不出来。</p>
+<p>人是不一样的；每个人都与别人不同。他们之所以不同，是因为他们出生前和出生后的历史绝不相同。</p>
+<h3 id="5-必然性"><a href="#5-必然性" class="headerlink" title="5 必然性"></a>5 必然性</h3><p>所有发生的事情，都是在当时的情况下必然会发生的。事情之所以发生，是因为那些促使其发生的力量，要比与之相反的力量更加强大。从这个意义上说，事情的发生是不可避免的。</p>
+<p>在预测未来事件的时候，除了人类行动科学规律涉及的领域外，谈论必然性，那是在玩弄毫无意义的华丽辞藻，不会给预言增加任何说服力量，而只是证明预言者头脑糊涂。</p>
+<h2 id="第四章-确定性与不确定性"><a href="#第四章-确定性与不确定性" class="headerlink" title="第四章 确定性与不确定性"></a>第四章 确定性与不确定性</h2><h3 id="1-量的确定问题"><a href="#1-量的确定问题" class="headerlink" title="1 量的确定问题"></a>1 量的确定问题</h3><p>在人类活动领域，任何因素之间都没有不变的关系，因而也就不可能作测量，不可能进行量化。</p>
+<h3 id="2-可靠的知识"><a href="#2-可靠的知识" class="headerlink" title="2 可靠的知识"></a>2 可靠的知识</h3><p>我们必须再一次强调指出，人类行动学所致力于阐明和解释的现实，与人类心灵的逻辑结构是同源的。人类心灵既产生了人类思维，也产生了人类行动。人类行动和人类思维源自同一来源，从这一意义上说，它们是同质的。因而，人类行动的结构中不会有什么东西是人类心灵无法加以充分解释的。从这个意义上说，人类行动学提供了可靠的知识。</p>
+<h3 id="3-未来的不确定性"><a href="#3-未来的不确定性" class="headerlink" title="3 未来的不确定性"></a>3 未来的不确定性</h3><p>人类行动学所作的预测，在其适用的范围之内，是绝对可靠的。但是，关于行动的个人具有什么样的价值判断和这些个人将以何种方式决定自己的行动，这些预测则不会告诉我们任何东西。</p>
+<h3 id="4-行动与历史中的量化和领悟"><a href="#4-行动与历史中的量化和领悟" class="headerlink" title="4 行动与历史中的量化和领悟"></a>4 行动与历史中的量化和领悟</h3><p>在回想过去或筹划未来的时候，人类心灵所关注的许多东西可以用数字来表示，而另一些东西则只能用非数学语言来表达。关于后者，既然不能加以测量，似乎就得用人类行动学中的具体领悟来代替。</p>
+<h3 id="5-在人类事务方面，预测是靠不住的"><a href="#5-在人类事务方面，预测是靠不住的" class="headerlink" title="5 在人类事务方面，预测是靠不住的"></a>5 在人类事务方面，预测是靠不住的</h3><p>人在预测未来可能或必将发生的事情时，可能对，也可能错。但他对未来事件的预测，不会影响大自然的进程。不论人的期盼是什么，大自然都会走自己的路，绝不会受人的期盼、欲望、愿望和希望的影响。</p>
+<h3 id="6-经济预测与趋势理论"><a href="#6-经济预测与趋势理论" class="headerlink" title="6 经济预测与趋势理论"></a>6 经济预测与趋势理论</h3><p>经济学可以预测采取某些经济政策措施可能带来的结果，可以回答采取某一政策能否达到其想得到的目的这样的问题，如果回答是否定的，能指出该政策实际上会带来什么样的结果。</p>
+<h3 id="7-作决策"><a href="#7-作决策" class="headerlink" title="7 作决策"></a>7 作决策</h3><p>人类行动学中所谓的选择，在选择手段的时候，如今称为作决策。使用这个新词旨在使人们注意到，重要的不仅仅是作选择，而且是作出尽可能好的选择。这意味着：在作选择的时候，如果不紧迫的目的妨碍紧迫的目的，就不应该去满足不紧迫的目的。</p>
+<h3 id="8-证实与可反驳性"><a href="#8-证实与可反驳性" class="headerlink" title="8 证实与可反驳性"></a>8 证实与可反驳性</h3><p>一种理论若被经验数据所反驳，就不能成立。一旦实验证明，一种假说与业已证实的经验事实是不相容的，就必须抛弃该假说。</p>
+<h3 id="9-对人类行动学诸命题的考察"><a href="#9-对人类行动学诸命题的考察" class="headerlink" title="9 对人类行动学诸命题的考察"></a>9 对人类行动学诸命题的考察</h3><h2 id="第五章-关于经济学的范围与方法的一些常见错误"><a href="#第五章-关于经济学的范围与方法的一些常见错误" class="headerlink" title="第五章 关于经济学的范围与方法的一些常见错误"></a>第五章 关于经济学的范围与方法的一些常见错误</h2><h3 id="1-关于研究方法的无稽之谈"><a href="#1-关于研究方法的无稽之谈" class="headerlink" title="1 关于研究方法的无稽之谈"></a>1 关于研究方法的无稽之谈</h3><p>但是，经济学并不是历史学。经济学是人类行动学的一个分支，所谓人类行动学就是有关人类行动的先验理论。</p>
+<h3 id="2-对动机的研究"><a href="#2-对动机的研究" class="headerlink" title="2 对动机的研究"></a>2 对动机的研究</h3><p>从古典经济学的许多后继者的所作所为来看，经济学的任务不是探究实际发生的事情，而仅仅是探究到底是哪些力量以某种并非十分明确的方式导致了实际事情的发生。</p>
+<p>只有一个动机决定着所有人的所有行动，那就是直接或间接地并尽可能多地消除所感觉到的不舒服。追求这一目标时，人们会受到自身所有弱点和缺点的影响。决定事情的实际发展进程、价格的形成和所有其他通常所谓的经济现象以及人类历史上所有其他事件的，是这些易犯错误的人们所持有的态度和他们易出错的行动所带来的结果。</p>
+<h3 id="3-理论与实践"><a href="#3-理论与实践" class="headerlink" title="3 理论与实践"></a>3 理论与实践</h3><p>人生一每一个人都有，但只有少数人了解人生。</p>
+<h3 id="4-概念的实体化陷阱"><a href="#4-概念的实体化陷阱" class="headerlink" title="4 概念的实体化陷阱"></a>4 概念的实体化陷阱</h3><p>清晰思维的最大敌人是实体化倾向，即动不动就把实体即真实的存在赋予头脑中构造出来的东西，亦即动不动就把实体加在概念之上。</p>
+<p>这是构成所谓社会或“大社会”的各种各样的个人行动的一个特定方面。但是，社会本身既不是一个实体，也不是一种力量，更不是一个行动着的生物体。只有个人在行动。一些个人想要与其他人合作。</p>
+<p>概念的实体化不仅仅是一种认识论上的谬误，不仅仅会把对知识的追求引人歧途。在所谓社会科学中，它常常服务于某种政治野心，宣称集体本身比个人享有更高的尊严，甚至只将真实的存在赋予集体，否认个人的存在，把个人称为纯粹抽象的观念。</p>
+<h3 id="5-论拒斥方法论上的个人主义"><a href="#5-论拒斥方法论上的个人主义" class="headerlink" title="5 论拒斥方法论上的个人主义"></a>5 论拒斥方法论上的个人主义</h3><p>如果不谈论行动着的个人想要达到的目的，不谈论他们所认为的成与败或得与失，也就提不出有关人类行动的合理命题。我们研究一下个人的行动，便会了解有关行动的一切，因为就我们所知，在这个宇宙中，没有其他实体或存在物，会由于不满意于现状， 而尽力通过行动对其加以改善。研究一下行动，我们就会既认识到人的力量，又认识到此种力量的限度。人不是全知全能的，绝不会达到全面而持久的满意状态。人所能做的，只不过是采用适当的手段，用不满意程度较小的状态取代不满意程度较大的状态。</p>
+<p>认知集体的唯一方法，就是分析其成员的行为。</p>
+<p>统计资料记录的并不是集体身上发生的事情，而是构成某些群体的个人身上发生的事情。决定这些群体的素质的因素，是个人的某些特征。至于社会实体，首先需要做的是，弄清楚究竟是什么在逻辑上证明了把个人算作或不算作其群体的成员是正当的。</p>
+<p>人与人之间的一切关系，都是观念的衍生物，亦即受观念支配的个人行为。专制君主能够实施统治，是因为其臣民宁愿服从他， 而不愿公开反抗他。</p>
+<p>集体主义的方法是拟人的方法，因为它理所当然地认为，个人行动的所有概念都可以运用于集体行动。殊不知，所有的集体都是个人以某种方式行动的产物，都是从那些决定个人行为的观念中衍生出来的。</p>
+<h3 id="6-宏观经济学的研究方法"><a href="#6-宏观经济学的研究方法" class="headerlink" title="6 宏观经济学的研究方法"></a>6 宏观经济学的研究方法</h3><p>原因是，有关行动的一切推理必然涉及价值判断，涉及追求特定的目的，因为一切行动都有其最终目标。</p>
+<p>如果在推理的过程中，宏观经济学家使用各个买者和卖者在市场上确定的货币价格，那他就是在欺骗自己。始终如一的宏观经济学方法绝不应涉及价格和货币。市场经济是一个社会系统， 在这个系统中，许多个人在行动着。表现在市场价格中的个人估价，决定着所有生产活动的进程。如果我们想用整个系统的图像反映市场经济的现实，我们就绝对不能使用价格。</p>
+<p>如果我们问，是什么因素使国民收人增加了，则唯一的回答是，一方面是因为生产中使用的机器设备得到了改进，另一方面是因为更有效地利用了已有的机器设备来满足人的需要。前者是储蓄和积累资本带来的结果，后者是提高技术和企业家活动带来的结果。</p>
+<h3 id="7-现实与游戏"><a href="#7-现实与游戏" class="headerlink" title="7 现实与游戏"></a>7 现实与游戏</h3><p>人类为了改善自身的生存境况，不得不采取行动。要采取行动，就得制订计划并决定哪个计划是最为有利的。但商业活动的特征并不是把这样的决定强加在人们的头上，而是旨在改善人们的生活境况。游戏是作乐、运动和嬉戏；商业活动是生活和现实。</p>
+<h3 id="8-对流行见解的误解"><a href="#8-对流行见解的误解" class="headerlink" title="8 对流行见解的误解"></a>8 对流行见解的误解</h3><p>仅仅强调了这样一个事实，即：某一种思想与当时其他人在相同环境下所持有的思想是一致的。所谓一个时代的精神，某一集体的成员的精神，或某一环境下产生的精神，就是流行于相关个人之间的学说。</p>
+<p>改变某一环境下知识界倾向的，只能是一些前所未闻的思想对于这些新思想，只有一种解释，那就是出现了一个人，从这个人的头脑中产生了那些新思想。</p>
+<h3 id="9-相信思想万能"><a href="#9-相信思想万能" class="headerlink" title="9 相信思想万能"></a>9 相信思想万能</h3><p>不过，如果以为19世纪欧洲和美洲的自由主义者之所以鼓吹自由主义，是因为他们相信普通人亦即多数人具有不会出错的智慧、完美的道德、天生的正义感以及其他美德，那就大错特错了。其实，自由主义者想要保护全体人民的繁荣能够平稳发展，保护全体人民物质和精神上的幸福。他们想要消除贫困与匮乏。为了达到这些目的，他们鼓吹建立这样一些制度，这些制度既有助于各个国家之内所有公民的和平合作，也有助于国际和平。他们认为，战争，无论是国内战争（即革命）还是国外战争，都会干扰人类向着更为令人满意的状况迈进的步伐。他们非常清楚地认识到，市场经济这一现代文明的基础，依靠的就是和平合作，一旦人们不是相互交换商品和服务，而是相互争斗，文明的基础便会崩溃。</p>
+<p>另一方面，自由主义者也非常清楚，统治者的强权最终依赖的不是物质力量，而是思想。</p>
+<p>要想保护人类事务顺利发展，除了使平庸的大众接受精英的思想外，别无其他方法。而要做到这一点，就必须说服大众。专制制度是办不到这一点的，这种制度不是启迪大众，而是压服大众。从长期来看，多数人的思想，不管多么有害，都会被推行。因而，人类的未来取决于精英能否将公众舆论引至正确的方向。</p>
+<p>可是，检验真理的标准是，即便没有人愿意承认真理，真理却照样行得通。</p>
+<h3 id="10-完美政体的概念"><a href="#10-完美政体的概念" class="headerlink" title="10 完美政体的概念"></a>10 完美政体的概念</h3><p>用这样的方法来为像斯大林和希特勒这样的虐待狂实施的大规模谋杀作辩解，那的确极为愚蠢。但毫无疑问，指引许多最为血腥的“清算者”行动的那些观念，正是自远古以来一直激励着哲学家努力思考尽善尽美制度的那些观念。</p>
+<p>但是，即使我们为了论证的简洁而把这个问题放在一边，我们也必须强调指出，完美政体这一概念是错误的，是自相矛盾的。</p>
+<p>因此，人类的和平合作，这个繁荣与文明的先决条件，若没有实行镇压和强制的社会机构，即，若没有政府，就不会存在。暴行、抢劫和谋杀等罪恶，只有依靠这样一个机构才能防止，建立该机构是为了防止这些罪恶，但必要时其本身也采取这种行为方式。</p>
+<p>政府和国家永远不会尽善尽美，因为它们存在的理由是人类有缺陷；它们只能诉诸暴力，即它们想要防止的东西，来达到自己的目的，即消除人类与生俱来的想要施暴的冲动。</p>
+<p>主要的政治问题是，如何防止警察力量变为实行暴政的力量。这便是一切争取自由的斗争的意义所在。</p>
+<p>他们迟钝得没有意识到，一个人或一群人为了增进自己的短期利益，确确实实会栖牲自己的和所有其他人的长期利益。如果一个社会不准备挫败这种自私而短视的侵害社会利益的行为，那它就是无可救药的，就会听凭最为愚蠢的、最为残暴的社会成员的宰割。</p>
+<p>每一个社会主义者在神化国家的时候（如果他是个正统马克思主义者，他会把国家称为社会)，在赋予国家无限权力的时候，也就是在神化自己， 想用暴力镇压所有与其意见相左的人。</p>
+<p>未能找到完美政体的责任，不在于有人说的所谓政治科学的落后。如果人是完美的，也就根本不需要有政府。既然人是不完美的，也就没有哪种政体能令人满意地运行。</p>
+<p>人的卓越之处在于他有能力选择目的，有能力采取手段达到所选定的目的；政府的活动则旨在限制个人的这种选择自由。每个人都力图避免给自己带来痛苦的事情；而政府的活动终究是会给人带来痛苦的。人类的一切伟大成就，都是个人自发努力的成果；而政府则要用强制代替自愿的行动。固然，政府是不可或缺的，因为人不是完美的。但是，既然政府是用来对付人在某些方面的不完美之处的，它也就绝不会是完美的。</p>
+<h3 id="11-行为科学"><a href="#11-行为科学" class="headerlink" title="11 行为科学"></a>11 行为科学</h3><p>历史科学的情形则与此不同。它们探究的是人类行为，亦即激发行为的价值判断、用来完成行为的那些手段是否合适，以及行为带来的结果。这些因素的每一个都在一个接着一个的事件中发挥各自的作用。历史学家的主要任务是，尽可能正确地指出每因素的作用范围。</p>
+<p>从相关性原则的观点来看，这些所谓的行为科学急需重新确定研究方向。的确，我们可以为每个题目都写出一部巨著。但问题是，这样的著作研究的东西，从理论或实践的观点来看，是否算得上是相关的。</p>
+<h2 id="第六章忽视经济思考带来的另一些结果"><a href="#第六章忽视经济思考带来的另一些结果" class="headerlink" title="第六章忽视经济思考带来的另一些结果"></a>第六章忽视经济思考带来的另一些结果</h2><h3 id="1-探究人的问题的动物学方法"><a href="#1-探究人的问题的动物学方法" class="headerlink" title="1 探究人的问题的动物学方法"></a>1 探究人的问题的动物学方法</h3><p>但人也是动物。但人却不同于所有其他动物，因为他凭借理性，发现了一条伟大的宇宙法则，即分工原则下的合作可提高生产力。正如亚里士多德所说，人是社会动物，但他之所以具有“社会性”，并非因为他的动物性是如此，而是因为他具有人的特质。</p>
+<h3 id="2-“社会科学”的研究方法"><a href="#2-“社会科学”的研究方法" class="headerlink" title="2 “社会科学”的研究方法"></a>2 “社会科学”的研究方法</h3><p>人们习惯于使用“社会”这个词将社会合作人格化。据说，某种神秘的超人力量创造了社会，强制性地要求人为了社会的利益牺牲小我的利益。<br>科学地论述相关的问题，首先就要彻底摈弃这种类似于神话的探究方法。个人为了与其他人合作而放弃的东西，并不是与社会这个幽灵的利益相对立的个人利益。他放弃的是眼前的福利， 以便未来收获更大的福利。</p>
+<h3 id="3-经济学的研究方法"><a href="#3-经济学的研究方法" class="headerlink" title="3 经济学的研究方法"></a>3 经济学的研究方法</h3><p>经济学或交换科学，是探究人类行为的理论科学中截至目前得到详尽阐述的唯一分科。经济学把集体看作是个人之间合作的创造物。人们心中的指导思想是，最好是通过合作或只有通过合作，才能达到所追求的目的，于是人们便彼此联系，相互合作，由此也就产生了所谓的群体或集体，乃至人类社会。</p>
+<p>个人之间的社会合作，亦即社会，其基础既可以是自发的协作，也可以是命令和服从；</p>
+<p>市场经济本身不是暴力行动一革命的产物，而是一连串渐进和平转变的产物。“工业革命”一词有种种含义，但它们都会使人产生完全的误解。</p>
+<h3 id="4-评法律术语"><a href="#4-评法律术语" class="headerlink" title="4 评法律术语"></a>4 评法律术语</h3><p>他们慷慨激昂地谴责利润而未能认识到，正是由于必须赚取利润和避免亏损，才迫使“剥削者”尽可能地满足消费者，向消费者提供他们最急需的商品和服务。消费者是至高无上的，因为他们最终决定了生产什么产品，生产多少产品以及生产何种品质的产品。</p>
+<h3 id="5-消费者主权"><a href="#5-消费者主权" class="headerlink" title="5 消费者主权"></a>5 消费者主权</h3><p>市场经济的特点之一是，它以独特方式解决了由人在生理、道德和智力上的不平等带来的那些问题。</p>
+<h2 id="第七章-一元论在认识论上的根源"><a href="#第七章-一元论在认识论上的根源" class="headerlink" title="第七章 一元论在认识论上的根源"></a>第七章 一元论在认识论上的根源</h2><h3 id="1-一元论的非经验性"><a href="#1-一元论的非经验性" class="headerlink" title="1 一元论的非经验性"></a>1 一元论的非经验性</h3><p>正如前面已经指出的，人的世界观是决定论的。人不能想象绝对的无，不能想象某种东西源自于无，某种东西从外部侵入宇宙。人的宇宙概念囊括存在的一切。人的时间概念是无始无终的。现在和将来的一切，都潜存于以前已经存在的事物之中。已经发生的事情，都是必然要发生的。想要全面解释每一事件，就得无穷无尽地、一步一步地向后回溯。</p>
+<p>这种连续不断的决定论，是实验性自然科学所做所教的一切在认识论上的起点，但却并非来自于经验，而是先验的。</p>
+<p>绝不可能有逻辑实证主义和经验主义所说的那种“科学哲学”。人的心灵在探求知识时之所以要求助于哲学或神学，正是因为它想要解释自然科学无法解答的问题。哲学探究的事物超出了人的心灵的逻辑结构使人能够仰仗自然科学的成就作出推论的范围。</p>
+<h3 id="2-实证主义兴起的历史背景"><a href="#2-实证主义兴起的历史背景" class="headerlink" title="2 实证主义兴起的历史背景"></a>2 实证主义兴起的历史背景</h3><h3 id="3-自然科学的情况"><a href="#3-自然科学的情况" class="headerlink" title="3 自然科学的情况"></a>3 自然科学的情况</h3><p>如果有人说，自然科学一至少到目前为止一尚未对荆释人的行动问题作出任何贡献，那他便没有令人满意地刻画出这个问题的特征。要正确地描述当前的情况，就得强调指出，自然科学甚至尚没有思维工具来意识到存在着人的行动问题。在自然科学的体系与结构中，根本没有观念和终极原因的地位。自然科学的术语中也根本没有概念和词语可提供研究心灵和行动的适当方向。而且，自然科学的一切成就，无论多么不可思议，无论多么有益于人类，对于形而上学和宗教教义想要探究的那些基本哲学问题，却连皮毛都没有触及。</p>
+<p>形而上学和神学表现出的，是人对知识的不可遏制的欲求。无论这种对无限知识的渴求能否得到充分满足，人都不会停止对无限知识的热烈追求。</p>
+<h3 id="4-人类行动科学的情况"><a href="#4-人类行动科学的情况" class="headerlink" title="4 人类行动科学的情况"></a>4 人类行动科学的情况</h3><p>实证主义的基本论点是，自然科学的实验方法是能够用于探求知识的唯一方法。在实证主义者看来，自然科学由于完全埋头于阐释物理学和化学问题这一最为紧迫的任务，在过去忽视了而且或许在最近的将来仍将忽视人的行动问题。</p>
+<p>针对所有这些慷慨激昂的话语，我们不得不强调这样一个不容怀疑的事实，即：自然科学没有解释观念和合目的性的知识工具。</p>
+<h3 id="5-实证主义的种种谬见"><a href="#5-实证主义的种种谬见" class="headerlink" title="5 实证主义的种种谬见"></a>5 实证主义的种种谬见</h3><p>尽管不断遭到愚蠢而怀有恶意的大众以及前资本主义思维和行为方式的阻挠，自由企业制还是从根本上改变了人的命运。</p>
+<p>美好旧时光的停滞状态之所以转变为资本主义的生机盎然状态，并不是由于自然科学和技术发生了变革，而是由于采用了自由企业原则。</p>
+<p>将大众推入社会主义阵营的心理因素，不仅是他们幻想，社会主义将会使他们更为富裕，而且他们还希望，社会主义将抑制所有那些比他们过得好的人。所有的乌托邦计划，从柏拉图的一直到马克思的，其特点都是人类境况的呆滞和僵化。一旦社会达到了“完善”状态，就不应容忍再有任何变化。也就不再有革新者和改革者的容身之地。</p>
+<p>但是，了解了产生某些思想的特定历史环境，既不能为某一学派的学说作辩护，也不能驳斥某一学派的学说。揭露实证主义的种种谬见并驳斥它们，是认识论的任务。</p>
+<h2 id="第八章-实证主义与西方文明的危机"><a href="#第八章-实证主义与西方文明的危机" class="headerlink" title="第八章 实证主义与西方文明的危机"></a>第八章 实证主义与西方文明的危机</h2><h3 id="1-对宇宙的误解"><a href="#1-对宇宙的误解" class="headerlink" title="1 对宇宙的误解"></a>1 对宇宙的误解</h3><p>逻辑实证主义哲学描述宇宙的方法是有缺陷的。它了解的只是自然科学的实验方法所能够认识的事物。它既忽略了人的行动，也忽略了人的心灵。</p>
+<p>人的心灵不得不把实在分为两部分， 一是心灵本身，一是外部事件。而且，我们绝不可能把心灵的表现贬抑到较低的地位，因为人只是由于有心灵，才能够认识事物，才能够在心中呈现事实真相。</p>
+<h3 id="2-对人类境况的误解"><a href="#2-对人类境况的误解" class="headerlink" title="2 对人类境况的误解"></a>2 对人类境况的误解</h3><p>自然科学。在这种哲学的语境中，社会就像一个大工厂，所有社会问题都是技术问题，应当用“社会工程学”来解决。譬如，根据这种学说，所谓不发达国家所缺少的，是科学知识。</p>
+<p>如果没有经济计算，物理学和化学的量化对于技术规划也就毫无用处。不发达国家所缺乏的，不是知识， 而是资本。</p>
+<p>所谓经济进步，是三个进步群体或阶级的活动共同作用的结果。一个是储蓄者群体，另一个是科学家一发明家群体，还有一个是企业家群体。</p>
+<p>不是科学，而是资本主义的社会和政治制度，带来了我们这个时代所特有的所有那些技术上和治疗学上的成就。</p>
+<p>实验性自然科学的研究活动，其本身对于任何哲学和政治问题都是中立的。但是，这些活动只有在个人主义与自由的社会哲学盛行的环境中，才会蓬勃发展，才会有益于人类。</p>
+<h3 id="3-科学崇拜"><a href="#3-科学崇拜" class="headerlink" title="3 科学崇拜"></a>3 科学崇拜</h3><p>科学史是一些个人所取得的成就的记录，这些个人孤独地工作，常常被人漠视，甚至遭到同时代人的公开敌视。你无法写出一部“没有人名”的科学史。要紧的是个人，而不是“团队工作”。</p>
+<p>我们的文明面临的巨大危机，就是这种制订全面计划的热情所带来的后果。总是有人想要限制其他人的选择权利和选择能力。普通人对于无论在哪方面使自己黯然失色的人，总是侧目而视，鼓吹人人一致。我们时代的新颖之处和特点是，鼓吹人人一律和人人一致的那些人，是以科学的名义提出这一主张的。</p>
+<h3 id="4-极权主义所得到的方法论上的支持"><a href="#4-极权主义所得到的方法论上的支持" class="headerlink" title="4 极权主义所得到的方法论上的支持"></a>4 极权主义所得到的方法论上的支持</h3><p>日常经验与他们的社会主义预言是相抵触的。他们不仅无视西方国家国有化企业的所有“实验”均遭失败，而且一点儿也不在乎这样一个无可争辩的事实，即：资本主义国家的平均生活水平远高于共产党国家的生活水平。若被逼急了，他们会一笔勾销这一“经验”，说这完全是资本家的反共计谋造成的结果。不管人们对这种拙劣的托词有什么样的看法，人们都无法否认，这等于明目张胆地抛弃了把经验视为知识的唯一来源这样一条原则。</p>
+<h3 id="5-后果"><a href="#5-后果" class="headerlink" title="5 后果"></a>5 后果</h3><p>关于当代的意识形态状况，突出的事实是，最为流行的政治学说都鼓吹极权主义，也就是完全取消个人的选择自由和行动自由。同样值得注意的是，最为顽固地倡导这种强求一致的制度的人，都称自己为科学家、逻辑学家和哲学家。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" rel="tag"><i class="fa fa-tag"></i> 经济学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/01/27/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%BD%91%E7%AB%99/" rel="prev" title="常用工具网站">
+      <i class="fa fa-chevron-left"></i> 常用工具网站
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E5%AD%A6%E7%9A%84%E5%87%A0%E7%82%B9%E5%88%9D%E6%AD%A5%E7%9C%8B%E6%B3%95%EF%BC%9A%E4%BB%A3%E5%AF%BC%E8%A8%80"><span class="nav-text">关于人类行动学的几点初步看法：代导言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%AE%A4%E8%AF%86%E8%AE%BA%E7%9A%84%E6%B0%B8%E6%81%92%E5%9F%BA%E7%A1%80"><span class="nav-text">1 认识论的永恒基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%AE%BA%E8%A1%8C%E5%8A%A8"><span class="nav-text">2 论行动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E8%AE%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-text">3 论经济学</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E5%AD%A6%E6%80%9D%E6%83%B3%E7%9A%84%E8%B5%B7%E7%82%B9"><span class="nav-text">4 人类行动学思想的起点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%A4%96%E9%83%A8%E4%B8%96%E7%95%8C%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7"><span class="nav-text">5 外部世界的真实性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB%E4%B8%8E%E7%9B%AE%E7%9A%84%E8%AE%BA"><span class="nav-text">6 因果关系与目的论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E8%A1%8C%E5%8A%A8%E8%8C%83%E7%95%B4"><span class="nav-text">7 行动范畴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E7%A7%91%E5%AD%A6"><span class="nav-text">8 人类行动科学</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E4%BA%BA%E7%B1%BB%E5%BF%83%E7%81%B5"><span class="nav-text">第一章 人类心灵</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E4%BA%BA%E7%B1%BB%E5%BF%83%E7%81%B5%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84"><span class="nav-text">1 人类心灵的逻辑结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%85%B3%E4%BA%8E%E5%85%88%E9%AA%8C%E8%8C%83%E7%95%B4%E8%B5%B7%E6%BA%90%E7%9A%84%E5%81%87%E8%AF%B4"><span class="nav-text">2 关于先验范畴起源的假说</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%85%88%E9%AA%8C%E7%9F%A5%E8%AF%86"><span class="nav-text">3 先验知识</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%8E%B0%E5%AE%9E%E7%9A%84%E5%85%88%E9%AA%8C%E8%A1%A8%E7%8E%B0"><span class="nav-text">4 现实的先验表现</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%BD%92%E7%BA%B3%E6%B3%95"><span class="nav-text">5 归纳法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E6%A6%82%E7%8E%87%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%E7%9A%84%E8%87%AA%E7%9B%B8%E7%9F%9B%E7%9B%BE"><span class="nav-text">6 概率经验主义的自相矛盾</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89"><span class="nav-text">7 唯物主义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89%E5%93%B2%E5%AD%A6%E7%9A%84%E8%8D%92%E8%B0%AC%E5%8F%AF%E7%AC%91"><span class="nav-text">8 唯物主义哲学的荒谬可笑</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%9F%A5%E8%AF%86%E7%9A%84%E8%A1%8C%E5%8A%A8%E4%B8%BB%E4%B9%89%E5%9F%BA%E7%A1%80"><span class="nav-text">第二章 知识的行动主义基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E4%BA%BA%E4%B8%8E%E8%A1%8C%E5%8A%A8"><span class="nav-text">1 人与行动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E7%9B%AE%E7%9A%84%E5%9B%A0"><span class="nav-text">2 目的因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%BB%B7%E5%80%BC%E5%88%A4%E6%96%AD"><span class="nav-text">3 价值判断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%BB%9F%E4%B8%80%E7%A7%91%E5%AD%A6%E7%9A%84%E5%A6%84%E6%83%B3"><span class="nav-text">4 统一科学的妄想</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E7%A7%91%E5%AD%A6%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%88%86%E6%94%AF"><span class="nav-text">5 人类行动科学的两个分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E5%AD%A6%E7%9A%84%E9%80%BB%E8%BE%91%E7%89%B9%E5%BE%81"><span class="nav-text">6 人类行动学的逻辑特征</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E5%8F%B2%E5%AD%A6%E7%9A%84%E9%80%BB%E8%BE%91%E7%89%B9%E5%BE%81"><span class="nav-text">7 史学的逻辑特征</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E6%83%85%E6%84%8F%E5%AD%A6%E6%96%B9%E6%B3%95"><span class="nav-text">8 情意学方法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%BF%85%E7%84%B6%E6%80%A7%E4%B8%8E%E6%84%8F%E5%BF%97%E5%8A%9B"><span class="nav-text">第三章 必然性与意志力</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%97%A0%E9%99%90"><span class="nav-text">1 无限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%9C%80%E7%BB%88%E7%9A%84%E7%BB%99%E5%AE%9A%E7%89%A9"><span class="nav-text">2 最终的给定物</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%BB%9F%E8%AE%A1"><span class="nav-text">3 统计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97"><span class="nav-text">4 自由意志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%BF%85%E7%84%B6%E6%80%A7"><span class="nav-text">5 必然性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%A1%AE%E5%AE%9A%E6%80%A7%E4%B8%8E%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7"><span class="nav-text">第四章 确定性与不确定性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E9%87%8F%E7%9A%84%E7%A1%AE%E5%AE%9A%E9%97%AE%E9%A2%98"><span class="nav-text">1 量的确定问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%8F%AF%E9%9D%A0%E7%9A%84%E7%9F%A5%E8%AF%86"><span class="nav-text">2 可靠的知识</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7"><span class="nav-text">3 未来的不确定性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E8%A1%8C%E5%8A%A8%E4%B8%8E%E5%8E%86%E5%8F%B2%E4%B8%AD%E7%9A%84%E9%87%8F%E5%8C%96%E5%92%8C%E9%A2%86%E6%82%9F"><span class="nav-text">4 行动与历史中的量化和领悟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%9C%A8%E4%BA%BA%E7%B1%BB%E4%BA%8B%E5%8A%A1%E6%96%B9%E9%9D%A2%EF%BC%8C%E9%A2%84%E6%B5%8B%E6%98%AF%E9%9D%A0%E4%B8%8D%E4%BD%8F%E7%9A%84"><span class="nav-text">5 在人类事务方面，预测是靠不住的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E7%BB%8F%E6%B5%8E%E9%A2%84%E6%B5%8B%E4%B8%8E%E8%B6%8B%E5%8A%BF%E7%90%86%E8%AE%BA"><span class="nav-text">6 经济预测与趋势理论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E4%BD%9C%E5%86%B3%E7%AD%96"><span class="nav-text">7 作决策</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E8%AF%81%E5%AE%9E%E4%B8%8E%E5%8F%AF%E5%8F%8D%E9%A9%B3%E6%80%A7"><span class="nav-text">8 证实与可反驳性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-%E5%AF%B9%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E5%AD%A6%E8%AF%B8%E5%91%BD%E9%A2%98%E7%9A%84%E8%80%83%E5%AF%9F"><span class="nav-text">9 对人类行动学诸命题的考察</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E5%85%B3%E4%BA%8E%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E8%8C%83%E5%9B%B4%E4%B8%8E%E6%96%B9%E6%B3%95%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF"><span class="nav-text">第五章 关于经济学的范围与方法的一些常见错误</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%85%B3%E4%BA%8E%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95%E7%9A%84%E6%97%A0%E7%A8%BD%E4%B9%8B%E8%B0%88"><span class="nav-text">1 关于研究方法的无稽之谈</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%B9%E5%8A%A8%E6%9C%BA%E7%9A%84%E7%A0%94%E7%A9%B6"><span class="nav-text">2 对动机的研究</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5"><span class="nav-text">3 理论与实践</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E6%A6%82%E5%BF%B5%E7%9A%84%E5%AE%9E%E4%BD%93%E5%8C%96%E9%99%B7%E9%98%B1"><span class="nav-text">4 概念的实体化陷阱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E8%AE%BA%E6%8B%92%E6%96%A5%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8A%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%B8%BB%E4%B9%89"><span class="nav-text">5 论拒斥方法论上的个人主义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="nav-text">6 宏观经济学的研究方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E7%8E%B0%E5%AE%9E%E4%B8%8E%E6%B8%B8%E6%88%8F"><span class="nav-text">7 现实与游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E5%AF%B9%E6%B5%81%E8%A1%8C%E8%A7%81%E8%A7%A3%E7%9A%84%E8%AF%AF%E8%A7%A3"><span class="nav-text">8 对流行见解的误解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-%E7%9B%B8%E4%BF%A1%E6%80%9D%E6%83%B3%E4%B8%87%E8%83%BD"><span class="nav-text">9 相信思想万能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-%E5%AE%8C%E7%BE%8E%E6%94%BF%E4%BD%93%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="nav-text">10 完美政体的概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-%E8%A1%8C%E4%B8%BA%E7%A7%91%E5%AD%A6"><span class="nav-text">11 行为科学</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0%E5%BF%BD%E8%A7%86%E7%BB%8F%E6%B5%8E%E6%80%9D%E8%80%83%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%8F%A6%E4%B8%80%E4%BA%9B%E7%BB%93%E6%9E%9C"><span class="nav-text">第六章忽视经济思考带来的另一些结果</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%8E%A2%E7%A9%B6%E4%BA%BA%E7%9A%84%E9%97%AE%E9%A2%98%E7%9A%84%E5%8A%A8%E7%89%A9%E5%AD%A6%E6%96%B9%E6%B3%95"><span class="nav-text">1 探究人的问题的动物学方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E2%80%9C%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E2%80%9D%E7%9A%84%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="nav-text">2 “社会科学”的研究方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="nav-text">3 经济学的研究方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E8%AF%84%E6%B3%95%E5%BE%8B%E6%9C%AF%E8%AF%AD"><span class="nav-text">4 评法律术语</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%B6%88%E8%B4%B9%E8%80%85%E4%B8%BB%E6%9D%83"><span class="nav-text">5 消费者主权</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%83%E7%AB%A0-%E4%B8%80%E5%85%83%E8%AE%BA%E5%9C%A8%E8%AE%A4%E8%AF%86%E8%AE%BA%E4%B8%8A%E7%9A%84%E6%A0%B9%E6%BA%90"><span class="nav-text">第七章 一元论在认识论上的根源</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E4%B8%80%E5%85%83%E8%AE%BA%E7%9A%84%E9%9D%9E%E7%BB%8F%E9%AA%8C%E6%80%A7"><span class="nav-text">1 一元论的非经验性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89%E5%85%B4%E8%B5%B7%E7%9A%84%E5%8E%86%E5%8F%B2%E8%83%8C%E6%99%AF"><span class="nav-text">2 实证主义兴起的历史背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E7%9A%84%E6%83%85%E5%86%B5"><span class="nav-text">3 自然科学的情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E4%BA%BA%E7%B1%BB%E8%A1%8C%E5%8A%A8%E7%A7%91%E5%AD%A6%E7%9A%84%E6%83%85%E5%86%B5"><span class="nav-text">4 人类行动科学的情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89%E7%9A%84%E7%A7%8D%E7%A7%8D%E8%B0%AC%E8%A7%81"><span class="nav-text">5 实证主义的种种谬见</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AB%E7%AB%A0-%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89%E4%B8%8E%E8%A5%BF%E6%96%B9%E6%96%87%E6%98%8E%E7%9A%84%E5%8D%B1%E6%9C%BA"><span class="nav-text">第八章 实证主义与西方文明的危机</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AF%B9%E5%AE%87%E5%AE%99%E7%9A%84%E8%AF%AF%E8%A7%A3"><span class="nav-text">1 对宇宙的误解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%B9%E4%BA%BA%E7%B1%BB%E5%A2%83%E5%86%B5%E7%9A%84%E8%AF%AF%E8%A7%A3"><span class="nav-text">2 对人类境况的误解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%A7%91%E5%AD%A6%E5%B4%87%E6%8B%9C"><span class="nav-text">3 科学崇拜</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E6%9E%81%E6%9D%83%E4%B8%BB%E4%B9%89%E6%89%80%E5%BE%97%E5%88%B0%E7%9A%84%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%8A%E7%9A%84%E6%94%AF%E6%8C%81"><span class="nav-text">4 极权主义所得到的方法论上的支持</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%90%8E%E6%9E%9C"><span class="nav-text">5 后果</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Allen Chen</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Allen Chen</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
